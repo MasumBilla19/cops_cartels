@@ -1,0 +1,159 @@
+.custom_height {
+    height: 100vh;
+}
+.main_area {
+    background: url(../../images/hero.jpg) no-repeat;
+    background-size: cover;
+    font-family: 'Press Start 2P', cursive;
+    height: 77vh;
+}
+.main_area .left h1 {
+    margin: 0 0 0 15px;
+    color: #fff;
+    font-size: 35px;
+    line-height: 50px;
+}
+.main_area .left p {
+    color: #fff;
+    font-size: 14px;
+}
+.main_area .right {
+    background-color: #121212;
+    border: 1px solid #85031b;
+    text-align: center;
+    margin: 0 auto;
+}
+.main_area .right .title {
+    margin: 0;
+    color: #fc2d2d;
+    padding-top: 10px;
+    padding-bottom: 20px;
+    font-size: 25px;
+    font-weight: bold;
+}
+.main_area .right img {
+    width: 300px;
+    height: 250px;
+}
+.main_area .right p {
+    color: #fff;
+    font-size: 7px;
+    margin-top: -42px;
+}
+
+/* discord btn */
+.discord_btn {
+    background: #000;
+    text-align: center;
+    padding: 20px 0;
+}
+.discord_btn button {
+    background: linear-gradient(to right, #ff8652 , #e74663);
+    border-radius: 0%;
+    font-size: 11px;
+    font-family: 'Press Start 2P', cursive;
+    font-weight: bold;
+    line-height: 25px;
+    color: #000;
+}
+
+
+
+
+
+/* responsive code */
+@media (min-width: 1281px) {
+    .container {
+        max-width: 1920px !important;
+        margin: 0 auto !important;
+        text-align: center;
+    }    
+    .custom_height {
+        height: 100vh;
+    }
+    .main_area {
+        height: 77vh;
+        margin-bottom: -5px;
+    }
+    .main_area .left h1 {
+        font-size: 55px;
+        line-height: 70px;
+    }
+    .main_area .left p {
+        padding-top: 16px;
+        font-size: 24px;
+    }
+    .main_area .right .title {
+        font-size: 35px;
+    }
+    .main_area .right img {
+        width: 400px;
+        height: 350px;
+    }
+    .main_area .right p {
+        font-size: 14px;
+    }
+    .discord_btn {
+        padding: 17px 0 24px;
+    }
+    .discord_btn button {
+        font-size: 18px;
+        line-height: 35px;
+        padding: 9px 20px;
+    }
+    
+}
+@media (min-width: 600px) and (max-width: 1024px) {
+    .custom_height {
+        height: 100vh;
+    }
+    .main_area {
+        height: 90vh;
+    }
+}
+@media (min-width: 720px) and (max-width: 1280px) {
+    .main_area {
+        height: 78vh;
+    }
+    .main_area .left h1 {
+        font-size: 35px;
+        line-height: 50px;
+    }
+    .main_area .left p {
+        font-size: 14px;
+    }
+    .main_area .right .title {
+        font-size: 25px;
+    }
+    .main_area .right img {
+        width: 300px;
+        height: 250px;
+    }
+    .main_area .right p {
+        font-size: 8px;
+    }
+    .discord_btn {
+        padding: 19px 0;
+    }
+    .discord_btn button {
+        font-weight: 500;
+        padding: 5px 7px;
+        font-size: 9px;
+        line-height: 20px;
+    }
+}
+@media (min-width: 320px) and (max-width: 600px) {
+    .main_area .left {
+        text-align: center;
+        padding-bottom: 30px;
+    }
+    .custom_height {
+        height: auto;
+    }
+    .main_area {
+        height: auto;
+    }
+}
+
+
+

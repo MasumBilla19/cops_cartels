@@ -1,0 +1,141 @@
+.minting_area  {
+    background: url(../../images/Layer\ 8.png) no-repeat;
+    background-size: cover;
+    font-family: 'Press Start 2P', cursive;
+}
+.minting_area .minting_details .title {
+    color: #fc2d2d;
+    font-size: 15px;
+}
+.minting_area .minting_details .mint {
+    margin: 0 150px;
+    background: #202230;
+    color: #fff;
+    border-width: 1px;
+    border-style: solid;
+    border-image: linear-gradient(to bottom, #fc2d2d, #202230) 1;
+}
+.minting_area .minting_details .mint h6 {
+    color: #fc2d2d;
+    font-size: 10px;
+}
+.minting_area .minting_details .mint p {
+    font-size: 9px;
+}
+.minting_area .minting_details .mint img {
+    width: 150px;
+}
+.minting_area .cart {
+    background-color: #202230;
+    border: 1px solid #85031b;
+    color: #fff;
+}
+.minting_area .cart h5 {
+    color: #fc2d2d;
+    font-size: 14px;
+}
+.minting_area .cart p {
+    font-size: 11px;
+    font-family: 'Courier New', Courier, monospace;
+}
+.minting_area .cart h6 {
+    padding-bottom: 3px;
+    color: #fc2d2d;
+    margin: 0;
+    font-size: 7px;
+}
+.minting_area .cart p {
+    margin: 0;
+}
+.minting_area .cart .risk {
+    color: #dd6a14;
+}
+
+
+
+
+
+
+
+
+
+
+/* responsive code */
+@media (min-width: 1281px) {
+    .container {
+        max-width: 1920px !important;
+        margin: 0 auto;
+    }   
+    .minting_area .minting_details .title {
+        font-size: 24px !important;
+        padding: 10px 0;
+    } 
+    .minting_area .minting_details .mint img {
+        width: 200px;
+    }
+    .minting_area .minting_details .mint img:first-child {
+        margin-right: 100px;
+    }
+    .minting_area .minting_details .mint img:last-child {
+        margin-left: 100px;
+    }
+    .minting_area .minting_details .mint p {
+        font-size: 15px;
+    }
+    .minting_area .cart h5 {
+        font-size: 25px;
+    }
+    .minting_area .cart p {
+        font-size: 19px;
+        text-align: left;
+    }
+    .minting_area .cart h6 {
+        font-size: 15px;
+        text-align: left;
+    }
+    .minting_area .minting_details .mint h6 {
+        font-size: 20px;
+    }
+    .ex_padding1 {
+        margin-bottom: 9px;
+    }
+    .ex_padding2 {
+        padding-bottom: 10px;
+    }
+    .ex_padding3 {
+        padding-bottom: 10px;
+    }
+    .ex_padding4 {
+        padding-bottom: 7.5px;
+    }
+}
+@media (min-width: 720px) and (max-width: 1280px) {
+    .ex_padding2 {
+        padding-bottom: 3px;
+    }
+    .ex_padding3 {
+        padding-bottom: 3px;
+    }
+    .ex_padding4 {
+        padding-bottom: 1px;
+    }
+}
+@media (min-width: 320px) and (max-width: 600px) {
+    .minting_area .minting_details .mint {
+        margin: 0 20px;
+    }
+    .minting_area .minting_details .mint p {
+        font-size: small;
+    }
+    .minting_area .cart p {
+        font-size: small;
+    }
+}
+
+
+
+
+
+
+
+
